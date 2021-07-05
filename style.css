@@ -5,10 +5,13 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
 .name {
   color: orange;
 }
-section {
+.flex-contain {
   display: flex;
   margin-bottom: 90px;
 }
@@ -45,4 +48,31 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.training-certificates {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.carddiv {
+  width: 50%;
+  margin-left: 7%;
+  margin-right: 5%;
+  padding: 30px;
+  padding-bottom: 180px;
+  box-shadow: 10px 10px 35px gray;
+  border-radius: 10px;
+}
+#cardborder1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#cardborder2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
