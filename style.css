@@ -1,0 +1,41 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+}
+.name {
+  color: orange;
+}
+section {
+  display: flex;
+}
+.first-section {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.divsize {
+  width: 50%;
+  padding-left: 80px;
+  margin-top: 20px;
+}
+.divsize img {
+  width: 85%;
+}
+#text {
+  text-align: justify;
+}
+.university {
+  text-decoration: none;
+  color: green;
+  font-weight: 800;
+}
+.button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  border-radius: 5px;
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700;
+}
